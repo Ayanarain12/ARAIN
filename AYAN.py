@@ -1,4 +1,4 @@
-i#coding=utf
+#coding=utf
 import uuid
 import os,sys,time,json,random,re,string,platform,base64
 try:
