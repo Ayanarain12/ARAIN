@@ -1108,7 +1108,7 @@ loop = 0
 oks = []
 cps = []
 try:
-    print('\n\033[1;37m[•] JOIN MY WHATSAPPGROUP)
+    print('\n\033[1;37m[•] JOIN MY WHATSAPPGROUP')
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
